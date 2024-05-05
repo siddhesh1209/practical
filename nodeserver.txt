@@ -1,0 +1,14 @@
+--> nodeserver
+
+create vagrant ubuntu/jammy64
+vagrant up 
+vagrant ssh
+vagrant up
+install docker using two command 
+docker pull node
+docker images
+docker build  -t nodeserver:1.0 .
+docker images
+docker run --name nodeserver -p 3000:3000 -d nodeserver:1.0 
+docker ps 
+ip addr show ( 192.168.56.14:3000 )

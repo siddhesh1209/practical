@@ -1,0 +1,35 @@
+how to create repository
+--------------------------------
+create two new repository in github make it as a public and select 
+README.md file to add
+git config --global user.name prithvi1713   // for sign-in in our local machine use gitbash/cmd/vscode terminal
+git congif --global user.mail plavate95@gmail.com
+git init 
+git clone https://github.com/Prithvi1713/Assignement4.git // paste githubRepo link of our github account 
+cd repository_name 
+git status // to check changes are updated on git/terminal
+
+-------------------------------------------------------------------------
+after changing readme.md file in terminal how to push on github website
+-------------------------------------------------------------------------
+you can update the README.md file.
+git add README.md // for save the specific file changes here like README.md
+git pull README.md // to pull file in local which was created from github account.
+git add . // to save the changes of all files which files is presented in repository 
+git commit -m "updateded README.md file" // to commit the changes which are done at reamme.md file
+---------------------------------------------------------------------------------------------
+git add filename
+git commmit -m "modidfied"
+git push origin master
+------------------------------------------------------
+to add/delete/listout branch 
+------------------------------------------------------
+git branch branch_name
+git pull origin branch_name
+git branch -a
+git branch -d branch_name
+
+git brannch branch_name // to change the branch name
+
+
+8591272558
